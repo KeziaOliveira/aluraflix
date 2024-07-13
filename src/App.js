@@ -1,22 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import aluraflixLogo from "./assets/logo/aluraflix-logo.svg";
+import Button from "./Components/Button/Button";
+import styles from "./index.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className={styles.header}>
+        <img src={aluraflixLogo} alt="Logo Aluraflix"></img>
+        <div className="HeaderButtons">
+          <Button label="HOME" />
+          <Button
+            label="NOVO VÍDEO"
+            onClick={() => alert("Abrir página para adicionar novo vídeo")} // Adicionar página "novo vídeo"
+          />
+        </div>
       </header>
     </div>
   );

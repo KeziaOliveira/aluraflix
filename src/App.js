@@ -1,23 +1,76 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import aluraflixLogo from "./assets/logo/aluraflix-logo.svg";
 import Button from "./Components/Button/Button";
 import styles from "./index.css";
+import VideoCard from "./Components/VideoCard/VideoCard";
+import VideoSection from "./Components/VideoSection/VideoSection";
 
-function App() {
+const App = () => {
+  const [videos, setVideos] = useState([]);
+
+  useEffect(() => {
+    const fetchVideos = async () => {
+      try {
+        const response = await fetch("http://localhost:3001/videos");
+        const data = await response.json();
+        setVideos(data);
+      } catch (error) {
+        console.error("Failed to fetch videos:", error);
+      }
+    };
+
+    fetchVideos();
+  }, []);
+
+  const handleDelete = (id) => {
+    setVideos(videos.filter((video) => video.id !== id));
+  };
+
+  const handleEdit = (id, updatedVideo) => {
+    setVideos(videos.map((video) => (video.id === id ? updatedVideo : video)));
+  };
+
   return (
     <div className="App">
       <header className={styles.header}>
-        <img src={aluraflixLogo} alt="Logo Aluraflix"></img>
-        <div className="HeaderButtons">
+        <img src={aluraflixLogo} alt="Logo Aluraflix" />
+        <div className="headerButtons">
           <Button label="HOME" />
           <Button
             label="NOVO VÍDEO"
-            onClick={() => alert("Abrir página para adicionar novo vídeo")} // Adicionar página "novo vídeo"
+            onClick={() => alert("Abrir página para adicionar novo vídeo")}
           />
         </div>
       </header>
+      <div className="banner"></div>
+      <div className="category-sections">
+        <section className="frontend">
+          <VideoSection
+            category="FRONTEND"
+            videos={videos.filter((video) => video.category === "Frontend")}
+            onDelete={handleDelete}
+            onEdit={handleEdit}
+          />
+        </section>
+        <section className="backend">
+          <VideoSection
+            category="BACKEND"
+            videos={videos.filter((video) => video.category === "Backend")}
+            onDelete={handleDelete}
+            onEdit={handleEdit}
+          />
+        </section>
+        <section className="mobile">
+          <VideoSection
+            category="MOBILE"
+            videos={videos.filter((video) => video.category === "Mobile")}
+            onDelete={handleDelete}
+            onEdit={handleEdit}
+          />
+        </section>
+      </div>
     </div>
   );
-}
+};
 
 export default App;

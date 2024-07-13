@@ -1,0 +1,45 @@
+.video-list {
+  display: flex;
+}
+
+.section-title.frontend {
+  background-color: #00ccff;
+  color: white;
+  border-radius: 15px;
+  height: 3rem;
+  width: 20rem;
+  padding: 0.5rem;
+  margin: 1rem 0 0 16px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-title.backend {
+  background-color: #00c86f;
+  color: white;
+  border-radius: 15px;
+  height: 3rem;
+  width: 20rem;
+  padding: 0.5rem;
+  margin: 1rem 0 0 16px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-title.mobile {
+  background-color: #ffba05;
+  color: white;
+  border-radius: 15px;
+  height: 3rem;
+  width: 20rem;
+  padding: 0.5rem;
+  margin: 1rem 0 0 16px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

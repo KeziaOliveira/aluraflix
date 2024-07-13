@@ -15,7 +15,7 @@ header {
   justify-content: center;
 }
 
-.HeaderButtons {
+.headerButtons {
   display: flex;
   gap: 1rem;
 }

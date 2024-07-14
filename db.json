@@ -6,7 +6,7 @@
       "category": "Frontend",
       "image": "https://i.ytimg.com/vi/ZY3-MFxVdEw/mqdefault.jpg",
       "video": "https://www.youtube.com/embed/ZY3-MFxVdEw",
-      "descrição": ""
+      "descrição": "O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa nesse episódio!"
     },
     {
       "id": 2,
@@ -14,63 +14,63 @@
       "category": "Frontend",
       "image": "https://s3-alpha-sig.figma.com/img/a674/13ce/921a6389c9afc41cb402e5d88f0a4f77?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cGZyAour10DGGGE0kZa6u0CtbJKN8sJvT5kt7btohz-pV2ViKRj5HWn0DH1URps7q3riL77DE8ASzEAhMXgBP-VNkyi8rfPSUWJgIiXALdDNagdAot2OxFaeS3wAzPkG837F1TwiloeUqYYlI5wsJ-gMLQzhRF0~AHskJ5KK0Jsot8JD1yM7YpuaiIh0VaztOgGUxs5uh53~i4Iw07zaa2Qz~GorHvpz6lyMJReNYNVbdjJ2WaavjXv2aJMpogcoH52UB1vYquy9nAMpJK-ifZIoRPJQDnQtaE2DuO2-jZvLsQsMNP8HLuJw8ArTbjUUEwiHcTZE7jjNDWS2XoKKLA__",
       "video": "https://www.youtube.com/embed/NpJVZtgSY4U",
-      "descrição": ""
+      "descrição": "Nosso objetivo é entender uma estrutura chamada 'Árvore Binária de Busca' e eu pretendo te ajudar a construir esse conhecimento passo a passo, para que você se sinta orgulhoso (a) quando compreendê-lo."
     },
     {
       "id": 3,
-      "title": "Métricas para o Front End",
+      "title": "Implementando UX no frontend",
       "category": "Frontend",
       "image": "https://s3-alpha-sig.figma.com/img/6c2c/1a0a/6090ee6fcfafcda1093c009e506d7a42?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Nw51fXueulwEyk~D5xyCvQIYeIgLR9fnVk8VCSU8Ov3BRLoGtCY38TA5uIqO5rihNl7PzyUG1a~gRzyMUAN191z69ej5vybx5U1ekfCtiXu73F0jagHqKqePhyJBK25AbAjsNzTQUg2Xhr688Ea3JNaeAoO79XWZCGJSpo9WhuxqyR8GVewriqvfL4udENanygZAAdXAQ9VmuT8Kt4lF~iSBN28QkJbyF50xIja4Q9k7d8veQe3hBEFWy8oXVQ1T8xsG923TBwpGRX9IWQsewY76h3LkGN2jl1tDB~DaRjVLGXOaVjXZ7rreYmTlKjP6zk7rEG3RdbmQkWpVXz9YMA__",
       "video": "https://www.youtube.com/embed/FJhMCi07T4A",
-      "descrição": ""
+      "descrição": "Chegou o episódio com a musa brasileira de UX, a Carla de Bona! Entenda a Experiência do Usuário e porque ela é importante para qualquer negócio, seja de produtos ou serviços"
     },
     {
       "id": 4,
-      "title": "Aprendendo com YouTube",
+      "title": "Como Estudar PROGRAMAÇÃO | Guia Back-End",
       "category": "Backend",
       "image": "https://i.ytimg.com/vi/LbKDxQ0jX90/maxresdefault.jpg",
       "video": "https://www.youtube.com/embed/LbKDxQ0jX90",
-      "descrição": ""
+      "descrição": "Quer ser um desenvolvedor back-end? Hoje vamos falar um pouco sobre o que é necessário estudar para você se tornar um programador back-end, apresentando os principais tópicos e te dando um guia e roteiro definitivo do que você precisa para alcançar seus resultados o mais rápido"
     },
     {
       "id": 5,
-      "title": "Aprendendo com YouTube",
+      "title": "GitHub CLI - Uma Nova Experiência no Github",
       "category": "Backend",
       "image": "https://s3-alpha-sig.figma.com/img/cbd7/dbda/25110b0f35786393dc14dac9ce1002c4?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QUDo6B1kDu3zkTcQazpFKDNZaOn3GKEYJixqL9M507gL2rsOtMj-Unyono6hZy5MoF8fOhA-4cUBf9YEOK8ZQFuNj324mlzj76O7skiRf6MH2amudhMDTHR6EZHb-7AOGNdpyZD9qAkb6XTmXLoRgvvtbB4F6bkE49oRtmqrNJnZPz3YRVE9-Qh761wU-ApVr4lQIl01MOwnfivaQZLd0aRWDC7nKHhIYYuBfuekYnF~Aec7o6O7qRPdg~cD-25iZMjfkzw~eZ2vpOkcMP6XaRWRzjolvCoUwgS8hXs69XJkkTm3AECmloVhXKNJpTskQ76kT~8p3lYq-l~1YikaIA__",
       "video": "https://www.youtube.com/embed/6o6-bKOZOEY",
-      "descrição": ""
+      "descrição": "Nesse vídeo vamos aprender um pouco mais o que seria o GitHub CLI e quais são as suas vantagens!"
     },
     {
       "id": 6,
-      "title": "Aprendendo com YouTube",
+      "title": "Qual é a melhor linguagem de programação?",
       "category": "Backend",
       "image": "https://s3-alpha-sig.figma.com/img/e268/8232/062bbf4bd15d0d94cd3c07c0162f561c?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bwM4dpa-5TdwdsibCOSOVLLiyvsIRwiN0sfBIKjy2ofXPXamXXm8PaOB-tMxFCqv-R9cIQ8haAYq2hS-vS9S32pk8HRtRQs1XNO5Zp1IgrIwHVwEdJe-h8zXlyNkocy5LJ2KiuFUIqiZ7A6rsk69ULwUYhtZYoKRMcXn36~5v9NVyUbnU7G6eRB8nW~J-cY2kEJHlhJH0EkbMcAbafetoGfpOXKtXY~d8xt4iGu0EiNWCepUd3VWVguNnzsHKv35OIXuD0DDGlSV0IDAU2IYelvefUtfLqY6RfWqqFoPf2ADlcw0FtpgneIwuSs36TNQS27EjhNpCFXDzHoFglzm6g__",
       "video": "https://www.youtube.com/embed/Uh-GNH-t89w",
-      "descrição": ""
+      "descrição": "PHP, JavaScript, Python, Java e outras... qual é a melhor? Como surgiram essas linguagens e quais as aplicações e usos de cada uma na aprendizagem e para o mercado? Descubra nesta conversa da Roberta Arcoverde e do Paulo Silveira"
     },
     {
       "id": 7,
-      "title": "Aprendendo com YouTube",
+      "title": "Desenvolvimento Android",
       "category": "Mobile",
       "image": "https://s3-alpha-sig.figma.com/img/23b5/5e7b/83c6f81a27da40c9288af82662028c17?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=a8l0ARQny~M1Ie1~AaXQJsFYin1i6qfKoJJQdE2TTQSvJNlwoQkLUOc0p8jM67NKs973MTbDdOmOjBXMsDDTTV6wsaPswISAC9K4-M7rxDIyRStRP3OMK6qopwtq5QMQsoIyMCh-JGpIs-3Pd-jqG4fJJl58JO~SP0Pb3YVDZwkCzIUu2AlvEAXUeIJFgY6~bXOg5LNFYZK9kgETfggjw-wfYd6yqu3B7kCDprH1RRP0M4itpQsokdzmMElcAQIYb8u0sEvVuNSEQQGfrxoy66xeACfDEVQXmE0BkpPqYYiSCUdcxzsQAoIwUP7G4hkKyTfw0tmOgEOe181zA1XSow__",
       "video": "https://www.youtube.com/embed/fWscDFHKgw8",
-      "descrição": ""
+      "descrição": "Um episódio focado no desenvolvimento de aplicações Android. Neste bate-papo, Paulo Silveira e Felipe Torres conversam sobre os primeiros passos para começar a desenvolver, quais as principais ferramentas do desenvolvimento mobile, como colocar sua aplicação no ar e mais!"
     },
     {
       "id": 8,
-      "title": "Aprendendo com YouTube",
+      "title": "Emily Janzer - The New React Native",
       "category": "Mobile",
       "image": "https://s3-alpha-sig.figma.com/img/ef03/8443/082c1629fd1180cd904cb5779795963e?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=edE45q0NIXWlesqWCir37sc3o7qDc2N3XVGxlV3RSSh07-VjLp5aDzRmIdHE9hUR2G3fcqn9HU-1L~mWB0Eeb3PoZXFZTr1eqIAKLvVS95szrzpLUCcnkSvQGV2KtNJx~dA407aRlPmq8NMZDcxrHfJ1aTzLKqTVtY8LugBBsWsPeUr9iAstbA4bBpCuJNeI3JJ3bbahcXz80fCiHs7zQMB~ctV4iCrJ1nIbUyOrBjXEv5HTK7p9VPNdJ48r8vaTzuiegcL--xVT4Ue~9K1OutoEFmpO1ghjrTQ35KY2J3pMAEUioSCz~AHQQ6lTL30JIEHuakb4kpM8T6M0las2vw__",
       "video": "https://www.youtube.com/embed/52El0EUI6D0",
-      "descrição": ""
+      "descrição": "Aprenda sobre React com Emily Janzer"
     },
     {
       "id": 9,
-      "title": "Aprendendo com YouTube",
+      "title": "Como começar sua primeira app com o Flutter",
       "category": "Mobile",
       "image": "https://s3-alpha-sig.figma.com/img/f9e5/5ebc/668a8b672f914d14f6d85a0777e4cfef?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pHu-Yk6yPhZoUXV79bVFP2wFFM-yGKl87G241YEGd3aE7imG2mIHB2wZh95bY7GXb4Zd~F-i8encF0w0i54fXoQznTy24YPhWi3xbz1rMnqWfOWNOKksItFDjEhXq3hLzVyl-8ndF2TYVkT9bXXkeR3yhSQSy~-hcKNC3BfLt-~sstr5fLlYUAMwzapYe5F45BKPwzq0SvUhmVQID5jLyg9mHQmT9hTdCXBjapGNrrM1rcjUboaJOgy3mg-Nfrm06v0jubUQnmdjDb0aYLGiNwdRtIJ91l03tKBkN130YzeVsK277t5~FcMsELvqTLD28QwlFoiQub240QzE7d4~Aw__",
       "video": "https://www.youtube.com/embed/xSC8j3gl7xM",
-      "descrição": ""
+      "descrição": "Chegou a hora de criarmos nosso primeiro aplicativo com o Flutter e entender como fazer tudo funcionar! Esse é apenas um dos Alura+, vídeos curtos para você se atualizar sobre as tecnologias emergentes e modinhas do mundo tech...mas com muita seriedade!"
     }
   ]
 }

@@ -4,9 +4,11 @@ import Button from "./Components/Button/Button";
 import styles from "./index.css";
 import VideoCard from "./Components/VideoCard/VideoCard";
 import VideoSection from "./Components/VideoSection/VideoSection";
+import Banner from "./Components/Banner/Banner"; // Importando o Banner
 
 const App = () => {
   const [videos, setVideos] = useState([]);
+  const [currentVideo, setCurrentVideo] = useState(null); // Estado para o vídeo atual
 
   useEffect(() => {
     const fetchVideos = async () => {
@@ -14,6 +16,9 @@ const App = () => {
         const response = await fetch("http://localhost:3001/videos");
         const data = await response.json();
         setVideos(data);
+        if (data.length > 0) {
+          setCurrentVideo(data[0]); // Define o primeiro vídeo como padrão
+        }
       } catch (error) {
         console.error("Failed to fetch videos:", error);
       }
@@ -21,6 +26,17 @@ const App = () => {
 
     fetchVideos();
   }, []);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentVideo((prevVideo) => {
+        const nextIndex = (videos.indexOf(prevVideo) + 1) % videos.length;
+        return videos[nextIndex];
+      });
+    }, 5000); // Muda a cada 5 segundos
+
+    return () => clearInterval(interval);
+  }, [videos]);
 
   const handleDelete = (id) => {
     setVideos(videos.filter((video) => video.id !== id));
@@ -42,7 +58,7 @@ const App = () => {
           />
         </div>
       </header>
-      <div className="banner"></div>
+      {currentVideo && <Banner video={currentVideo} />}
       <div className="category-sections">
         <section className="frontend">
           <VideoSection

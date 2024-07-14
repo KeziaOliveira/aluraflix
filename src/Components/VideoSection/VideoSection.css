@@ -1,5 +1,6 @@
 .video-list {
   display: flex;
+  background-color: #262626;
 }
 
 .section-title.frontend {

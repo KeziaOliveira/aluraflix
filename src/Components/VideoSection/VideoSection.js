@@ -16,7 +16,7 @@ const VideoSection = ({ category, videos, onDelete, onEdit }) => {
               video={video}
               onDelete={onDelete}
               onEdit={onEdit}
-              category={category} // Passando a categoria
+              category={category}
             />
           ))
         ) : (

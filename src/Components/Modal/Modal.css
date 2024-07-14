@@ -11,10 +11,12 @@
 }
 
 .modal-content {
-  background: white;
-  padding: 16px;
+  background: #03122f;
+  padding: 30px 60px;
   border-radius: 8px;
+  border: 2px solid #6bd1ff;
   position: relative;
+  width: 900px;
 }
 
 .modal-close {
@@ -23,6 +25,50 @@
   right: 8px;
   background: none;
   border: none;
-  font-size: 16px;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.modal-title {
+  color: #2271d1;
+}
+
+form p {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+form p label {
+  margin-bottom: 4px;
+  color: white;
+}
+
+form p input,
+form p select {
+  padding: 8px;
+  border: 2px solid #2271d1;
+  border-radius: 4px;
+  background-color: #03122f;
+  color: #a5a5a5;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  gap: 2rem;
+}
+
+.modal-button {
+  background-color: #03122f;
+  padding: 0.5rem;
+  width: 180px;
+  height: 54px;
+  border-radius: 15px;
+  border: 2px solid white;
+  color: white;
+  font-weight: bold;
   cursor: pointer;
 }

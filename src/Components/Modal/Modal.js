@@ -1,18 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./Modal.css"; // CSS para o modal
+import cross from "../../assets/icons/cross.svg";
+import "./Modal.css";
 
 const Modal = ({ children, onClose }) => {
   return ReactDOM.createPortal(
     <div className="modal-backdrop" onClick={onClose}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
         <button className="modal-close" onClick={onClose}>
-          X
+          <img src={cross} alt="Fechar" />
         </button>
         {children}
       </div>
     </div>,
-    document.getElementById("modal-root") // Certifique-se de ter esse elemento no seu index.html
+    document.getElementById("modal-root")
   );
 };
 

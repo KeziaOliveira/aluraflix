@@ -8,16 +8,16 @@
 }
 
 .video-card.frontend {
-  background-color: #6bd1ff; /* Cor específica para Frontend */
-  box-shadow: inset 0 0 17px 8px #6bd1ff; /* Sombra inset específica para Frontend */
+  background-color: #6bd1ff;
+  box-shadow: inset 0 0 17px 8px #6bd1ff;
 }
 
 .video-card.backend {
-  background-color: #00c86f; /* Cor específica para Backend */
+  background-color: #00c86f;
 }
 
 .video-card.mobile {
-  background-color: #ffba05; /* Cor específica para Inovação */
+  background-color: #ffba05;
 }
 
 .thumbnail img {

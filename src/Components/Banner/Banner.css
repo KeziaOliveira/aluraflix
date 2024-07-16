@@ -1,18 +1,18 @@
 .Banner_container {
   position: relative;
   width: 100%;
-  overflow: hidden; /* Oculta conteúdo que transborda */
+  overflow: hidden;
 }
 
 .Banner_fundo {
   padding: 80px 30px;
   color: white;
-  height: 400px; /* Altura fixa */
+  height: 400px;
   background-size: cover;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Para distribuir o espaço */
-  overflow: hidden; /* Para ocultar transbordos */
+  justify-content: space-between;
+  overflow: hidden;
 }
 
 .Banner_item {
@@ -34,33 +34,24 @@
 }
 
 .Banner_title {
-  color: white;
   border-radius: 15px;
-  height: 3rem; /* Altura fixa */
+  height: 3rem;
   padding: 0.5rem;
   text-align: center;
-  width: 20rem; /* Largura fixa */
+  width: 20rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.frontend {
+.Banner_title.frontend {
   background-color: #00ccff;
 }
 
-.backend {
+.Banner_title.backend {
   background-color: #00c86f;
 }
 
-.mobile {
+.Banner_title.mobile {
   background-color: #ffba05;
-}
-
-.Banner_textContainer {
-  height: 150px; /* Altura fixa para o container de texto */
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end; /* Mantém os textos alinhados ao final */
-  overflow: hidden; /* Oculta texto que transborda */
 }

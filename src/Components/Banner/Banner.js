@@ -1,10 +1,12 @@
 import React from "react";
-import "./Banner.css"; // Adicione um arquivo CSS para estilos personalizados.
+import "./Banner.css";
 
 const Banner = ({ video }) => {
   if (!video) {
     return null; // Ou um loader, se preferir
   }
+
+  const categoryClass = `Banner_title ${video.category.toLowerCase()}`;
 
   return (
     <section className="Banner_container">
@@ -19,9 +21,7 @@ const Banner = ({ video }) => {
       >
         <div className="Banner_item">
           <div>
-            <h1 className={`Banner_title ${video.category.toLowerCase()}`}>
-              {video.category}
-            </h1>
+            <h1 className={categoryClass}>{video.category}</h1>
             <h2>{video.title}</h2>
             <p>{video.descrição}</p> {/* Exibindo a descrição aqui */}
           </div>

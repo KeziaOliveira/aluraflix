@@ -8,15 +8,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 1000;
 }
 
 .modal-content {
   background: #03122f;
-  padding: 30px 60px;
+  padding: 30px 40px;
   border-radius: 8px;
   border: 2px solid #6bd1ff;
   position: relative;
-  width: 900px;
+  width: 80%;
+  max-width: 900px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .modal-close {
@@ -31,9 +38,16 @@
 
 .modal-title {
   color: #2271d1;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  width: 100%;
 }
 
 form p {
+  width: 100%;
   display: flex;
   flex-direction: column;
   margin-bottom: 12px;
@@ -42,6 +56,7 @@ form p {
 form p label {
   margin-bottom: 4px;
   color: white;
+  text-align: left;
 }
 
 form p input,
@@ -71,4 +86,5 @@ form p select {
   color: white;
   font-weight: bold;
   cursor: pointer;
+  margin-top: 1rem;
 }
